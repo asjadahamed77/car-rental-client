@@ -3,7 +3,7 @@ import { Outlet } from 'react-router-dom'
 
 const AdminLayout = () => {
   return (
-    <div>
+    <div className='mt-[65px]'>
       <Outlet />
     </div>
   )
