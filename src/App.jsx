@@ -1,9 +1,11 @@
 import React from 'react'
+import ErrorHandler from './middlewares/ErrorHandler'
+
 
 const App = () => {
   return (
     <div>
-      Project DriveXchange
+     <ErrorHandler />
     </div>
   )
 }
