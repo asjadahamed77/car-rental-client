@@ -15,7 +15,7 @@ import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
-    <div>
+    <div className="bg-gray-100">
 
       <Navbar />
 
